@@ -1,0 +1,12 @@
+{
+  "name": "event-lookup",
+  "version": "1.0.0",
+  "description": "A package for looking up events from MyHelsinki using keywords",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
