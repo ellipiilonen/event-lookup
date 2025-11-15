@@ -4,9 +4,20 @@
   "description": "A package for looking up events from MyHelsinki using keywords",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/lookup.ts",
+  "types": "dist/types.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@types/node": "^24.10.1",
+    "install": "^0.13.0",
+    "node-fetch": "^3.3.2",
+    "npm": "^11.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.9"
   }
 }
