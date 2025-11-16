@@ -1,11 +1,3 @@
-export interface Event {
-    text: string;
-    keyword: string;
-    event: string;
-    location: string;
-    language: string;
-}
-
 export interface EventLookup {
     text?: string;
     location?: string;
@@ -14,7 +6,11 @@ export interface EventLookup {
     event?: string;
 }
 
-export interface PlaceLookup {
-    division?: string;
-    text?: string;
+export interface EventData {
+    name: string;
+    description: string;
+}
+
+export interface ApiResponse {
+    data: EventData[];
 }
