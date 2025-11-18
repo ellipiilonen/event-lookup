@@ -1,6 +1,6 @@
 {
   "name": "@ellipiilonen/event-lookup",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A package for looking up events from MyHelsinki using keywords",
   "homepage": "https://github.com/ellipiilonen/event-lookup#readme",
   "bugs": {
