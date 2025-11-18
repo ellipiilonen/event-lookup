@@ -3,8 +3,9 @@
 With this package you can look up events from Helsinki Linked Events API using your preferred keyword. It returns you a list of events which title or description match the keyword you provided.
 This project is made for a school project only and I don't recommend using it in production.
 
-Published package:
-Source code:
+Published package: [https://www.npmjs.com/package/@ellipiilonen/event-lookup](url)
+
+Source code: [https://github.com/ellipiilonen/event-lookup](url)
 
 ## Source code
 Contents of the package include ```lookup.ts``` file, which contains the code used for looking up events. ```Lookup.spec.ts``` file contains unit tests.
