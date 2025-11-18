@@ -20,3 +20,4 @@ export interface EventData {
 export interface ApiResponse {
     data: EventData[];
 }
+

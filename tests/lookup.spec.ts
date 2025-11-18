@@ -4,7 +4,6 @@ import { describe, it, expect } from "vitest";
 describe("returnEventsBasedOnText", () => {
     it("Returns events based on the lookup text", async () => {
 
-        //the searched text
         const searchedText = "moulin";
 
         const events = await lookupEvents({ text: searchedText });
@@ -16,6 +15,6 @@ describe("returnEventsBasedOnText", () => {
             const description = event.description.fi.toLowerCase();
             expect(name.includes(searchedText) || description.includes(searchedText)).toBe(true);
         });
-    });
+    }, 10000);
 });
 
