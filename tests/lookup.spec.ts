@@ -1,20 +1,21 @@
-import type { EventLookup } from "../src/types";
 import { lookupEvents } from "../src/lookup";
 import { describe, it, expect } from "vitest";
 
-describe("test API", () => {
-    it("Test the API response and check data", async () => {
-        const url = "https://api.hel.fi/linkedevents/v1/event/?text=music";
+describe("returnEventsBasedOnText", () => {
+    it("Returns events based on the lookup text", async () => {
 
-        const response = await fetch(url);
+        //the searched text
+        const searchedText = "moulin";
 
-        expect(response.status).toBe(200);
+        const events = await lookupEvents({ text: searchedText });
 
-        const data = await response.json();
+        console.log(JSON.stringify(events));
 
-        expect(data).toHaveProperty("data");
-
-        expect(data.data[0]).toHaveProperty("name");
-        expect(data.data[0]).toHaveProperty("description");
-    })
+        events.forEach(event => {
+            const name = event.name.fi.toLowerCase();
+            const description = event.description.fi.toLowerCase();
+            expect(name.includes(searchedText) || description.includes(searchedText)).toBe(true);
+        });
+    });
 });
+

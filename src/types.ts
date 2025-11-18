@@ -7,8 +7,14 @@ export interface EventLookup {
 }
 
 export interface EventData {
-    name: string;
-    description: string;
+    name: {
+        fi: string;
+        en: string;
+    }
+    description: {
+        fi: string;
+        en: string;
+    }
 }
 
 export interface ApiResponse {
