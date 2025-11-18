@@ -2,9 +2,22 @@
   "name": "@ellipiilonen/event-lookup",
   "version": "2.0.0",
   "description": "A package for looking up events from MyHelsinki using keywords",
+  "homepage": "https://github.com/ellipiilonen/event-lookup#readme",
+  "bugs": {
+    "url": "https://github.com/ellipiilonen/event-lookup/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellipiilonen/event-lookup.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
   "main": "dist/lookup.ts",
   "types": "dist/types.ts",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
     "build": "tsc",
     "test": "vitest run"

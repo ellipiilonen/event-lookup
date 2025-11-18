@@ -2,11 +2,11 @@ import type { EventLookup, ApiResponse, EventData } from './types.js';
 import fetch from 'node-fetch';
 
 /**
- * Fetches events from Helsinki Linked Events API based on the lookup criteria.
- * It returns a list of events that match the criteria.
+ * Fetches events from Helsinki Linked Events API based on the lookup text.
+ * It returns a list of events if their description or title match the text.
  * 
- * @param lookup The lookup criteria for events. 
- * @returns An array of event objects based on the criteria.
+ * @param lookup The lookup text for events. 
+ * @returns An array of event objects based on the text.
  */
 
 export async function lookupEvents(lookup: EventLookup): Promise<EventData[]> {
