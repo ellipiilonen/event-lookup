@@ -1,7 +1,9 @@
 # Seminaaritehtävän raportti
 
 Projektin git-repo: [https://github.com/ellipiilonen/event-lookup](url)
+
 Video: [https://youtu.be/YQvIrSjEWRw](url)
+
 Julkaistu paketti NPM-palvelussa: [https://www.npmjs.com/package/@ellipiilonen/event-lookup](url)
 
 ## Tavoitteet
