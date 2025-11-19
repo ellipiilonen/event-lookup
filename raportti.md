@@ -1,4 +1,9 @@
 # Seminaaritehtävän raportti
+
+Projektin git-repo: [https://github.com/ellipiilonen/event-lookup](url)
+Video: [https://youtu.be/YQvIrSjEWRw](url)
+Julkaistu paketti NPM-palvelussa: [https://www.npmjs.com/package/@ellipiilonen/event-lookup](url)
+
 ## Tavoitteet
 Seminaaritehtäväni tavoitteena oli perehtyä NPM-palveluun ja pakettien julkaisemiseen sekä julkaista oma paketti palvelussa. Tavoitteenani oli tehdä paketti, jonka avulla saa haettua tapahtumia Helsinki Linked Events API:sta tapahtuman otsikossa tai kuvauksessa esiintyvän tekstin perusteella. Paketin tavoitteena oli palauttaa hakua vastaavan tapahtuman otsikko ja kuvaus.
 Tavoitearvosanani seminaaritehtävälle on 3.
@@ -19,7 +24,7 @@ Mysteeriksi siis jäi, minkä takia testi ei aiemmin toiminut ja yhtäkkiä toim
 
 Muokkaus seuraavana päivänä: ilmeisesti API:n kutsuminen vie välillä enemmän aikaa syystä x. Usein API vastaa lähes heti, mutta välillä siinä voi mennä jopa yli 10 sekuntia. Lisäsin testiin Vitestin dokumentaatiota hyödyntäen aikakatkaisun, joka tuntuu nyt ratkaisevan ongelman ainakin toistaiseksi.
 
-Itse paketin julkaisu NPM-palveluun tuntui helpolta seuraten [NPM:n dokumentaatiota](https://docs.npmjs.com/packages-and-modules). 
+Itse paketin julkaisu NPM-palveluun tuntui helpolta seuraten [NPM:n dokumentaatiota](https://docs.npmjs.com/packages-and-modules). Paketin julkaisussa ei tullut sen kummempia ongelmia.
 
 Opin myös luomaan olemassa olevaan repositorioon README-tiedoston sekä .md -tiedostojen formatoinnista.
 
