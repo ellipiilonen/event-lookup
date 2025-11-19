@@ -17,6 +17,8 @@ Yksi suurimmista ongelmistani tuli esiin Vitest-testejä tehdessä; en meinannut
 
 Mysteeriksi siis jäi, minkä takia testi ei aiemmin toiminut ja yhtäkkiä toimikin. Opin kuitenkin käyttämään fetch-mockia ja ymmärtämään sen käyttötarkoituksen. En kuitenkaan hyödyntänyt sitä paketin lopullisessa versiossa, vaikka useiden lähteiden mukaan sen käyttö olisikin suositeltavaa ja parempi tapa tehdä testejä kuin oikeasta API:sta fetchaaminen.
 
+Muokkaus seuraavana päivänä: ilmeisesti API:n kutsuminen vie välillä enemmän aikaa syystä x. Usein API vastaa lähes heti, mutta välillä siinä voi mennä jopa yli 10 sekuntia. Lisäsin testiin Vitestin dokumentaatiota hyödyntäen aikakatkaisun, joka tuntuu nyt ratkaisevan ongelman ainakin toistaiseksi.
+
 Itse paketin julkaisu NPM-palveluun tuntui helpolta seuraten [NPM:n dokumentaatiota](https://docs.npmjs.com/packages-and-modules). 
 
 Opin myös luomaan olemassa olevaan repositorioon README-tiedoston sekä .md -tiedostojen formatoinnista.
