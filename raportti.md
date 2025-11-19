@@ -1,10 +1,10 @@
 # Seminaaritehtävän raportti
 
-Projektin git-repo: [https://github.com/ellipiilonen/event-lookup](url)
+Projektin git-repo: [https://github.com/ellipiilonen/event-lookup](https://github.com/ellipiilonen/event-lookup)
 
-Video: [https://youtu.be/YQvIrSjEWRw](url)
+Video: [https://youtu.be/YQvIrSjEWRw](https://www.youtube.com/watch?v=YQvIrSjEWRw)
 
-Julkaistu paketti NPM-palvelussa: [https://www.npmjs.com/package/@ellipiilonen/event-lookup](url)
+Julkaistu paketti NPM-palvelussa: [https://www.npmjs.com/package/@ellipiilonen/event-lookup](https://www.npmjs.com/package/@ellipiilonen/event-lookup)
 
 ## Tavoitteet
 Seminaaritehtäväni tavoitteena oli perehtyä NPM-palveluun ja pakettien julkaisemiseen sekä julkaista oma paketti palvelussa. Tavoitteenani oli tehdä paketti, jonka avulla saa haettua tapahtumia Helsinki Linked Events API:sta tapahtuman otsikossa tai kuvauksessa esiintyvän tekstin perusteella. Paketin tavoitteena oli palauttaa hakua vastaavan tapahtuman otsikko ja kuvaus.
